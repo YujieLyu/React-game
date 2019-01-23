@@ -16,7 +16,7 @@ class Title extends React.Component{
   render(){
     return(
       <h1>This is a tic-tac-toe game</h1>,
-      <h2>You can try it</h2>
+      <h2>You can try it!!!!!</h2>
     );
   }
 }
