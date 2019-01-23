@@ -15,7 +15,8 @@ import './index.css';
 class Title extends React.Component{
   render(){
     return(
-      <h1>This is a tic-tac-toe game</h1>
+      <h1>This is a tic-tac-toe game</h1>,
+      <h2>You can try it</h2>
     );
   }
 }
@@ -83,6 +84,7 @@ class Board extends React.Component {
           {this.renderSquare(7)}
           {this.renderSquare(8)}
         </div>
+        {this.renderSquare[9]}
       </div>
     );
   }
